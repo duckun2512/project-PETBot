@@ -1,0 +1,22 @@
+html,body{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+img{
+    max-width: 100%;
+}
+.navbar-inverse{
+    padding: 5px 0px;
+    text-align: center;
+    background-color: black;
+    background-image: none;
+}
+.glyphicon-shopping-cart:hover {
+    text-decoration: none;
+}
+
+
