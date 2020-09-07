@@ -1,0 +1,16 @@
+var basePrice = 50;
+var itemPrice = document.getElementById('item-price');
+(function () {
+    "use strict";
+    var selects = document.getElementsByClassName('calculate'), select;
+    for (var i = 0; select = selects[i]; i++) {
+        select.addEventListener('change',function (){
+            var newPrice = basePrice;
+            var selectedItems = document.querySelectorAll('.calculate option:checked'), selected;
+            for(var x = 0; selected = selectedItems[x]; x++) {
+                newPrice += Number(selected.getAttribute('data-price'));
+            }
+            itemPrice.innerHTML = newPrice.toFixed(2);
+        },false);
+    }
+})();
