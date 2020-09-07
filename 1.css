@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html,body{
+    overflow-x:hidden ;
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif,Arial;
+    font-size: large;
+}
+.navbar-brand img{
+    height: 3.5rem;
+}
+
+.navbar {
+
+    background:white;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+.nav-item{
+    padding: .4rem;
+}
+
+.nav-link{
+    color: black!important;
+}
+
+.nav-link.active,.nav-link:hover{
+    color: #396AFC!important;
+}
+
+.d-block{
+    height: 500px;
+}
+.carousel-caption{
+    position: absolute;
+    top: 30%;
+    transform: translateX(-56%);
+
+}
+.small-container{
+
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    background:white;
+}
+.col-3{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+    text-align: center;
+}
+.col-3 img{
+    width: 100%;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+
+h4{
+    color:#555;
+    font-weight: normal;
+
+}
+
+.col-3 p{
+    font-size: 14px;
+
+}
+
+.rating .fa{
+    color: coral;
+}
+
+.col-3:hover{
+    transform:translateY(-5px);
+}
+
+.footer{
+    background: black;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+    height: 500px;
+}
+.footer p{
+    color: #8a8a8a;
+
+}
+.footer h3{
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.footer.col-3{
+    min-width: 250px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+
+.single-product{
+    margin-top: 80px;
+
+
+}
+
+.single-product .col-6 img{
+    padding: 0;
+
+}
+.single-product .col-6{
+    padding: 20px;
+}
+.single-product h4{
+    margin: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.single-product select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.small-img-row{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+.infor{
+    padding-top: 20px;
+}
